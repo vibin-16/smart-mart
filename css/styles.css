@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.bg {
+  background-image: url('/img/flat-lay-vegetables-frame.jpg');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 56px);
+}
+
+.display-4 {
+  color: black;
+  justify-content: flex-start;
+}
+
+.navbar {
+  background-color: rgb(255, 235, 197)
+}
+
+.display-4 {
+  color: rgb(59, 120, 59);
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.col-12 {
+  padding-right: 0;
+}
+
+@media screen and (min-width: 968px) {
+  .d-flex {
+    display: block;
+    float: left;
+    margin-top: 200px;
+    margin-left: 80px;
+  }
+}
+
+.nav-link {
+  color: green !important;
+}
