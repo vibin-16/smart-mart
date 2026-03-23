@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/shopstyle.css ">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <title>Shop Page</title>
+</head>
+
+<body>
+
+<!-- navigation bar start -->
+      <nav class="navbar navbar-expand-xxl ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/img/edited logo.png" alt="logo" style="width: 50px;" class="logo">
+          </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link navigation-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link navigation-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation-link" href="/contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation-link cart-img" href="/cart.html" id="productCart">
+                  <i class="bi bi-cart-fill"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--navigation bar end-->
+
+<!--container body-->
+
+      <div class="container mt-5 product-container ">
+        <div class="d-flex product-flex ">
+
+
+          <div class="card product-card ">
+
+            <img class="card-img-top p-3 " src="/img/Saffola oats.jpg" alt="Card image">
+            <div class="card-body ">
+              <h4 class="card-title">Saffola Oats</h4>
+              <p class="card-text">Saffola Natural Creamy Oats (1 kg Pack).</p>
+              <p class="card-text">₹350.00</p>
+              <div class="d-flex count-btn ">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn addToCart" data-name="Saffola Oats" data-id="1" data-price="350.00" id="name1">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="1"  id="name1">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card ">
+            <img class="card-img-top p-3" src="/img/oil.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Fortune Oil</h4>
+              <p class="card-text">Fortune Sunflower Oil (1Liter).</p>
+              <p class="card-text">₹476.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart" data-name="Fortune Oil" data-id="2" data-price="476.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="2"  id="name2">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/shampoo.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"> Shampoo</h4>
+              <p class="card-text">Head & Shoulders Anti Dandruff Smooth & Silky Shampoo 650 ml.</p>
+              <p class="card-text">₹483.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Shampoo" data-id="3" data-price="₹483.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="3"  id="name3">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-4" src="/img/springles.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Pringles</h4>
+              <p class="card-text">Pringles Potato Chips, Cheddar Cheese, 156 Gm .</p>
+              <p class="card-text">₹420.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Pringles" data-id="4" data-price="₹420.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="4"  id="name4">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container mt-5 ">
+        <div class="d-flex product-flex">
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/flakes.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Corn Flakes</h4>
+              <p class="card-text">Nutrified Corn Flakes Prebiotic Breakfast Cereal (500gm).</p>
+              <p class="card-text">₹420.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Corn Flakes" data-id="5" data-price="₹420.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="5"  id="name5">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/flax seed.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Flax Seeds</h4>
+              <p class="card-text">Gum & Green Premium Flax Seeds (Alsi) 400g .</p>
+              <p class="card-text">₹199.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Flax Seeds" data-id="6" data-price="₹199.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="6"  id="name6">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/salt.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Salt</h4>
+              <p class="card-text">TATA Salt 1KG.</p>
+              <p class="card-text">₹150.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" >Salt" data-id="7" data-price="₹150.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="7"  id="name7">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/kurkure.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Kurkure</h4>
+              <p class="card-text">Kurkure(Pack of 3).</p>
+              <p class="card-text">₹25.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+               <a href="#" class="btn  addToCart"data-name=" Kurkure" data-id="8" data-price="₹25.00">Add to cart</a>
+               <a href="#" class="btn removeCart"  data-id="8"  id="name8">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container mt-5 ">
+        <div class="d-flex product-flex">
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/dettol.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Dettol</h4>
+              <p class="card-text">Dettol 1.5L.</p>
+              <p class="card-text">₹105.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Dettol" data-id="9" data-price="₹105.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="9"  id="name9">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/cashew.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Cashew Nuts</h4>
+              <p class="card-text">Mega Nuts 500 gm Cashew Premium Whole Raw.</p>
+              <p class="card-text">₹650.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Cashew Nuts" data-id="10" data-price="₹650.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="10"  id="name10">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/bread.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Bread</h4>
+              <p class="card-text">Pintola Organic Wholegrain Brown Rice Cakes (130 g) .</p>
+              <p class="card-text">₹130.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Bread" data-id="11" data-price="₹130.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="11"  id="name11">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/aashirvaad atta.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Aashirvaad Atta</h4>
+              <p class="card-text">Aashirvaad Super Atta 5Kg 100% Natural Wheat Flour.</p>
+              <p class="card-text">₹550.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Aashirvaad Atta" data-id="12" data-price="₹550.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="12"  id="name12">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 ">
+        <div class="d-flex product-flex">
+          <div class="card product-card">
+            <img class="card-img-top p-3 " src="/img/biscuits.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Biscuits</h4>
+              <p class="card-text"> Biscuits (family pack) - 144g (Pack of 4 ).</p>
+              <p class="card-text">₹200.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Biscuits" data-id="13" data-price="₹200.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="13"  id="name13">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/chocolates.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">chocolates</h4>
+              <p class="card-text">Cadbury Dairy Milk Silk Heart Blush Chocolate & Skin-Friendly Red Gulal (500g) .</p>
+              <p class="card-text">₹530.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name="chocolates" data-id="14" data-price="₹530.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="14"  id="name14">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/fruits.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Fruits</h4>
+              <p class="card-text">Fresh Fruits (1kg).</p>
+              <p class="card-text">₹250.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Fruits" data-id="15" data-price="₹250.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="15"  id="name15">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <img class="card-img-top p-3" src="/img/juice.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Juice</h4>
+              <p class="card-text"> Juice 1L No Added Sugar.</p>
+              <p class="card-text">₹150.00</p>
+              <div class="d-flex count-btn">
+                <div class="btn-group">
+                  <button type="button" class="btn">+</button>
+                  <button type="button" class="btn ">1</button>
+                  <button type="button" class="btn">-</button>
+                </div>
+                <a href="#" class="btn  addToCart"data-name=" Juice" data-id="16" data-price="₹150.00">Add to cart</a>
+                <a href="#" class="btn removeCart"  data-id="16"  id="name16">
+                <i class="bi bi-trash" style="width: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!--Footer starts-->
+
+      <div class="container-fluid  p-0 mt-5">
+        <div class="d-flex footer footer-logo">
+          <div class="container d-flex justify-content-center">
+            <a class="navbar-brand" href="#">
+              <img src="/img/edited logo.png" alt="logo" style="width: 150px;" class="logo-foot ">
+            </a>
+          </div>
+
+          <div class="container footer-card">
+            <ul class="list-group ">
+              <li class="list-group-item border border-0 footer">
+                <strong>Company</strong>
+
+              </li>
+              <li class="list-group-item border border-0 footer">
+                About us
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Our Stores
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="container footer-card">
+            <ul class="list-group">
+              <li class="list-group-item border border-0 footer">
+                <strong>Customer Service</strong>
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Track Order
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Contact Us
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Partner with Us
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Blogs
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Disclaimer
+              </li>
+
+
+            </ul>
+
+          </div>
+
+
+
+
+          <div class="container footer-card">
+            <ul class="list-group">
+              <li class="list-group-item border border-0 footer">
+                <strong>Information</strong>
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Terms and Conditions
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Privacy Policy
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Cancellation Policy
+              </li>
+              <li class="list-group-item border border-0 footer">
+                Shipping Policy
+              </li>
+              <li class="list-group-item border border-0 footer">
+                FSSAI Licence
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+<!--Footer ends-->
+  <script src="./js/shop.js"></script>
+</body>
+
+</html>

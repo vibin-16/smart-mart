@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* navigation bar start */
+.navbar {
+  background-color: rgb(255, 235, 197);
+}
+
+.navigation-link {
+  color: rgb(59, 120, 59) !important;
+}
+
+.navigation-link:hover {
+
+  background-color: rgb(59, 120, 59);
+  color: white !important;
+  border: 0;
+  margin: 0;
+
+
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+/* navigation bar end */
+
+/* footer start*/
+.footer {
+  background-color: rgb(255, 235, 197) !important;
+}
+
+
+.footer-logo {
+
+  padding-top: 50px;
+}
+
+@media (max-width: 576px) {
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-foot {
+    width: 100px !important;
+
+  }
+}
+
+/*footer ends*/
