@@ -13,20 +13,41 @@ body {
   overflow-x: hidden;
 }
 
+/* navigation bar start */
+.navbar {
+  background-color: rgb(255, 235, 197);
+}
+
+.navigation-link {
+  color: rgb(59, 120, 59) !important;
+}
+
+.navigation-link:hover {
+
+  background-color: rgb(59, 120, 59);
+  color: white !important;
+  border: 0;
+  margin: 0;
+
+
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+/* navigation bar end */
+
+/*container start */
+
 .bg {
   background-image: url('/img/flat-lay-vegetables-frame.jpg');
   background-size: cover;
   background-position: center;
   height: calc(100vh - 56px);
-}
-
-.display-4 {
-  color: black;
-  justify-content: flex-start;
-}
-
-.navbar {
-  background-color: rgb(255, 235, 197)
 }
 
 .display-4 {
@@ -36,25 +57,100 @@ body {
 .btn {
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(59, 120, 59) !important;
+  border-color: rgb(59, 120, 59) !important;
+  color: white;
 }
 
-.row {
-  margin-right: 0;
-}
 
-.col-12 {
-  padding-right: 0;
-}
 
 @media screen and (min-width: 968px) {
-  .d-flex {
+  .banner-page {
     display: block;
     float: left;
     margin-top: 200px;
     margin-left: 80px;
+
+  }
+
+}
+
+
+.bg-2 {
+  background-image: url('/img/supermarket-banner-with-food.jpg');
+  background-size: cover;
+
+  background-position: left;
+  height: calc(100vh - 44px);
+
+}
+
+
+.display-5 {
+  color: rgb(59, 120, 59);
+
+}
+
+.iosevka-charon-mono-bold {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-page2 {
+    display: block;
+    float: right;
+    margin-top: 200px;
+    margin-right: 80px;
+
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  .banner-page2 {
+    padding-top: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .bg-2 {
+    background: #F0D9C6;
+  }
+
+}
+
+/* container end*/
+
+/* footer start*/
+.footer {
+  background-color: rgb(255, 235, 197) !important;
+}
+
+
+.footer-logo {
+
+  padding-top: 50px;
+}
+
+@media (max-width: 576px) {
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-foot {
+    width: 100px !important;
+
   }
 }
 
-.nav-link {
-  color: green !important;
-}
+/*footer ends*/
